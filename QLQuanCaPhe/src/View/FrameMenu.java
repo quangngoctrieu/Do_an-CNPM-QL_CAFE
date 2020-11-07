@@ -52,7 +52,7 @@ public class FrameMenu extends javax.swing.JFrame {
         setBounds(new java.awt.Rectangle(0, 0, 1930, 1080));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setMaximizedBounds(new java.awt.Rectangle(0, 0, 1930, 1050));
-        setResizable(false);
+        setUndecorated(true);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(null);
@@ -375,7 +375,7 @@ public class FrameMenu extends javax.swing.JFrame {
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1050, Short.MAX_VALUE)
         );
 
-        setBounds(0, 0, 1946, 1089);
+        setBounds(0, 0, 1930, 1050);
     }// </editor-fold>//GEN-END:initComponents
     
     //Icon để setIcon khi hover vào menu bán hàng 

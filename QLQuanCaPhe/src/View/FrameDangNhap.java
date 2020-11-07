@@ -5,12 +5,17 @@
  */
 package View;
 
+import Controller.DangNhapController;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author LAPTOPTOKYO
  */
 public class FrameDangNhap extends javax.swing.JFrame {
-
+    DangNhapController DangNhap = new DangNhapController();
     /**
      * Creates new form FrameDangNhap
      */
@@ -118,11 +123,6 @@ public class FrameDangNhap extends javax.swing.JFrame {
         jTextField1.setText("Nhập tài khoản");
         jTextField1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jTextField1.setPreferredSize(new java.awt.Dimension(400, 50));
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
-            }
-        });
         jPanel1.add(jTextField1);
         jTextField1.setBounds(240, 200, 400, 50);
 
@@ -183,7 +183,27 @@ public class FrameDangNhap extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel1MouseExited
 
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
-        // TODO add your handling code here:
+        String strTaiKhoan, strMatKhau, strKetQua;
+        strTaiKhoan = jTextField1.getText();
+        strMatKhau = jPasswordField1.getText();
+        try {
+            //System.out.println(strTaiKhoan+"-"+strMatKhau);
+            strKetQua = DangNhap.kiemtra(strTaiKhoan, strMatKhau);
+            if(strKetQua == "Đăng nhập thành công"){
+                System.out.println("Đăng nhập thành công");
+                JOptionPane.showMessageDialog(null,"Đăng nhập thành công. Chào bạn "+strTaiKhoan+".");
+                 FrameMenu Start= new FrameMenu();
+                Start.setVisible(true);
+            }else if(strKetQua == "Đăng nhập không thành công"){
+                System.out.println("Đăng nhập không thành công");
+                JOptionPane.showMessageDialog(null,"Đăng nhập không thành công. vui lòng nhập lại "+strTaiKhoan+".");
+            }else if(strKetQua == "Tài khoản không tồn tại"){
+                System.out.println("Tài khoản không tồn tại");
+                JOptionPane.showMessageDialog(null,"Tài khoản "+strTaiKhoan+" không tồn tại.");
+            }
+        } catch (Exception ex) {
+            Logger.getLogger(FrameDangNhap.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_jLabel1MouseClicked
     
     //Tạo even cho nút Nhập lại
@@ -204,12 +224,9 @@ public class FrameDangNhap extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel5MouseExited
 
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
-        // TODO add your handling code here:
+        jTextField1.setText("Nhập tài khoản");
+        jPasswordField1.setText("password");
     }//GEN-LAST:event_jLabel5MouseClicked
-
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
 
     /**
      * @param args the command line arguments
