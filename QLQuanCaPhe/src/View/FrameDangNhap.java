@@ -189,6 +189,10 @@ public class FrameDangNhap extends javax.swing.JFrame {
         try {
             //System.out.println(strTaiKhoan+"-"+strMatKhau);
             strKetQua = DangNhap.DangNhapController(strTaiKhoan, strMatKhau);
+            //Kiểm tra đăng nhập thành công thì tắt frame đăng nhập
+            if(strKetQua=="Đăng nhập thành công"){
+                setVisible(false);
+            }
         } catch (Exception ex) {
             Logger.getLogger(FrameDangNhap.class.getName()).log(Level.SEVERE, null, ex);
         }

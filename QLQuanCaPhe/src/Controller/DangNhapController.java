@@ -32,8 +32,6 @@ public class DangNhapController {
     {
         //Tìm thông tin tài khoản khi biết tên Tài khoản
         arTK=TKDangNhap.TaiKhoan(strTaiKhoan);
-        //Tìm thông tin nhân viênkhi biết mã nhân viên
-        arNV=TTNhanVien.NhanVien(arTK.get(0).getStrMaNV());
         //Kiểm tra xem Row có rỗng hay không nếu rỗng trả về 0 nghĩa là tài khoản không tồn tại
         if(arTK.size()==0)
         {
@@ -45,11 +43,13 @@ public class DangNhapController {
             if(arTK.get(0).getStrMatKhau().equals(strMatKhau))
             {
                 JOptionPane.showMessageDialog(null,"Đăng nhập thành công. Chào bạn "+strTaiKhoan+".");
+                //Tìm thông tin nhân viên khi biết mã nhân viên
+                arNV=TTNhanVien.NhanVien(arTK.get(0).getStrMaNV());
                 FrameMenu Start= new FrameMenu(arTK.get(0).getStrMaNV(),arNV.get(0).getStrHoNV()+arNV.get(0).getStrTenNV(),arNV.get(0).getStrChucVu());
                 Start.setVisible(true);
                 return "Đăng nhập thành công";
             }
-            JOptionPane.showMessageDialog(null,"Đăng nhập không thành công. vui lòng nhập lại "+strTaiKhoan+".");
+            JOptionPane.showMessageDialog(null,"Đăng nhập không thành công. vui lòng nhập lại mật khẩu của "+strTaiKhoan+".");
             return "Đăng nhập không thành công";
         }
     }
