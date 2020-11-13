@@ -29,16 +29,16 @@ public class FrameDemo extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        pFrame = new javax.swing.JPanel();
-        jlbClose = new javax.swing.JLabel();
-        jlbHiden = new javax.swing.JLabel();
-        jblHeader = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        pScrollPane = new javax.swing.JPanel();
-        jlbMenuBanHang = new javax.swing.JLabel();
-        jlbNhapHang = new javax.swing.JLabel();
-        jlbNhanVien = new javax.swing.JLabel();
-        jlbKhachHang = new javax.swing.JLabel();
+        pn_Frame = new javax.swing.JPanel();
+        lbl_Close = new javax.swing.JLabel();
+        lbl_Hiden = new javax.swing.JLabel();
+        lbl_Header = new javax.swing.JLabel();
+        sp_Menu = new javax.swing.JScrollPane();
+        pn_Menu = new javax.swing.JPanel();
+        lbl_MenuBanHang = new javax.swing.JLabel();
+        lbl_NhapHang = new javax.swing.JLabel();
+        lbl_NhanVien = new javax.swing.JLabel();
+        lbl_KhachHang = new javax.swing.JLabel();
         jlbMon = new javax.swing.JLabel();
         jlbLuong = new javax.swing.JLabel();
         jlbNhaCungCap = new javax.swing.JLabel();
@@ -56,151 +56,151 @@ public class FrameDemo extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
 
-        pFrame.setBackground(new java.awt.Color(255, 255, 255));
-        pFrame.setPreferredSize(new java.awt.Dimension(1920, 1050));
-        pFrame.setLayout(null);
+        pn_Frame.setBackground(new java.awt.Color(255, 255, 255));
+        pn_Frame.setPreferredSize(new java.awt.Dimension(1920, 1050));
+        pn_Frame.setLayout(null);
 
-        jlbClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/close1.png"))); // NOI18N
-        jlbClose.addMouseListener(new java.awt.event.MouseAdapter() {
+        lbl_Close.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/close1.png"))); // NOI18N
+        lbl_Close.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jlbCloseMouseClicked(evt);
+                lbl_CloseMouseClicked(evt);
             }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jlbCloseMouseEntered(evt);
+                lbl_CloseMouseEntered(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                jlbCloseMouseExited(evt);
+                lbl_CloseMouseExited(evt);
             }
             public void mousePressed(java.awt.event.MouseEvent evt) {
-                jlbCloseMousePressed(evt);
+                lbl_CloseMousePressed(evt);
             }
             public void mouseReleased(java.awt.event.MouseEvent evt) {
-                jlbCloseMouseReleased(evt);
+                lbl_CloseMouseReleased(evt);
             }
         });
-        pFrame.add(jlbClose);
-        jlbClose.setBounds(1880, 5, 40, 40);
+        pn_Frame.add(lbl_Close);
+        lbl_Close.setBounds(1880, 5, 40, 40);
 
-        jlbHiden.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/an1.png"))); // NOI18N
-        jlbHiden.addMouseListener(new java.awt.event.MouseAdapter() {
+        lbl_Hiden.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/an1.png"))); // NOI18N
+        lbl_Hiden.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jlbHidenMouseClicked(evt);
+                lbl_HidenMouseClicked(evt);
             }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jlbHidenMouseEntered(evt);
+                lbl_HidenMouseEntered(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                jlbHidenMouseExited(evt);
+                lbl_HidenMouseExited(evt);
             }
             public void mousePressed(java.awt.event.MouseEvent evt) {
-                jlbHidenMousePressed(evt);
+                lbl_HidenMousePressed(evt);
             }
             public void mouseReleased(java.awt.event.MouseEvent evt) {
-                jlbHidenMouseReleased(evt);
+                lbl_HidenMouseReleased(evt);
             }
         });
-        pFrame.add(jlbHiden);
-        jlbHiden.setBounds(1835, 5, 40, 40);
+        pn_Frame.add(lbl_Hiden);
+        lbl_Hiden.setBounds(1835, 5, 40, 40);
 
-        jblHeader.setBackground(new java.awt.Color(0, 0, 0));
-        jblHeader.setOpaque(true);
-        pFrame.add(jblHeader);
-        jblHeader.setBounds(-220, 0, 2140, 50);
+        lbl_Header.setBackground(new java.awt.Color(0, 0, 0));
+        lbl_Header.setOpaque(true);
+        pn_Frame.add(lbl_Header);
+        lbl_Header.setBounds(-220, 0, 2140, 50);
 
-        jScrollPane1.setBackground(new java.awt.Color(0, 0, 0));
-        jScrollPane1.setBorder(null);
-        jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
-        jScrollPane1.setToolTipText("");
-        jScrollPane1.setViewportBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jScrollPane1.setPreferredSize(new java.awt.Dimension(198, 800));
+        sp_Menu.setBackground(new java.awt.Color(0, 0, 0));
+        sp_Menu.setBorder(null);
+        sp_Menu.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        sp_Menu.setToolTipText("");
+        sp_Menu.setViewportBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        sp_Menu.setPreferredSize(new java.awt.Dimension(198, 800));
 
-        pScrollPane.setBackground(new java.awt.Color(0, 0, 0));
-        pScrollPane.setPreferredSize(new java.awt.Dimension(198, 1200));
-        pScrollPane.setLayout(null);
+        pn_Menu.setBackground(new java.awt.Color(0, 0, 0));
+        pn_Menu.setPreferredSize(new java.awt.Dimension(198, 1200));
+        pn_Menu.setLayout(null);
 
-        jlbMenuBanHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/menubanhang1.png"))); // NOI18N
-        jlbMenuBanHang.addMouseListener(new java.awt.event.MouseAdapter() {
+        lbl_MenuBanHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/menubanhang1.png"))); // NOI18N
+        lbl_MenuBanHang.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jlbMenuBanHangMouseClicked(evt);
+                lbl_MenuBanHangMouseClicked(evt);
             }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jlbMenuBanHangMouseEntered(evt);
+                lbl_MenuBanHangMouseEntered(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                jlbMenuBanHangMouseExited(evt);
+                lbl_MenuBanHangMouseExited(evt);
             }
             public void mousePressed(java.awt.event.MouseEvent evt) {
-                jlbMenuBanHangMousePressed(evt);
+                lbl_MenuBanHangMousePressed(evt);
             }
             public void mouseReleased(java.awt.event.MouseEvent evt) {
-                jlbMenuBanHangMouseReleased(evt);
+                lbl_MenuBanHangMouseReleased(evt);
             }
         });
-        pScrollPane.add(jlbMenuBanHang);
-        jlbMenuBanHang.setBounds(0, 0, 200, 70);
+        pn_Menu.add(lbl_MenuBanHang);
+        lbl_MenuBanHang.setBounds(0, 0, 200, 70);
 
-        jlbNhapHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhaphang1.png"))); // NOI18N
-        jlbNhapHang.addMouseListener(new java.awt.event.MouseAdapter() {
+        lbl_NhapHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhaphang1.png"))); // NOI18N
+        lbl_NhapHang.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jlbNhapHangMouseClicked(evt);
+                lbl_NhapHangMouseClicked(evt);
             }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jlbNhapHangMouseEntered(evt);
+                lbl_NhapHangMouseEntered(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                jlbNhapHangMouseExited(evt);
+                lbl_NhapHangMouseExited(evt);
             }
             public void mousePressed(java.awt.event.MouseEvent evt) {
-                jlbNhapHangMousePressed(evt);
+                lbl_NhapHangMousePressed(evt);
             }
             public void mouseReleased(java.awt.event.MouseEvent evt) {
-                jlbNhapHangMouseReleased(evt);
+                lbl_NhapHangMouseReleased(evt);
             }
         });
-        pScrollPane.add(jlbNhapHang);
-        jlbNhapHang.setBounds(0, 70, 200, 70);
+        pn_Menu.add(lbl_NhapHang);
+        lbl_NhapHang.setBounds(0, 70, 200, 70);
 
-        jlbNhanVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhanvien1.png"))); // NOI18N
-        jlbNhanVien.addMouseListener(new java.awt.event.MouseAdapter() {
+        lbl_NhanVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhanvien1.png"))); // NOI18N
+        lbl_NhanVien.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jlbNhanVienMouseClicked(evt);
+                lbl_NhanVienMouseClicked(evt);
             }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jlbNhanVienMouseEntered(evt);
+                lbl_NhanVienMouseEntered(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                jlbNhanVienMouseExited(evt);
+                lbl_NhanVienMouseExited(evt);
             }
             public void mousePressed(java.awt.event.MouseEvent evt) {
-                jlbNhanVienMousePressed(evt);
+                lbl_NhanVienMousePressed(evt);
             }
             public void mouseReleased(java.awt.event.MouseEvent evt) {
-                jlbNhanVienMouseReleased(evt);
+                lbl_NhanVienMouseReleased(evt);
             }
         });
-        pScrollPane.add(jlbNhanVien);
-        jlbNhanVien.setBounds(0, 140, 200, 70);
+        pn_Menu.add(lbl_NhanVien);
+        lbl_NhanVien.setBounds(0, 140, 200, 70);
 
-        jlbKhachHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/khachhang1.png"))); // NOI18N
-        jlbKhachHang.addMouseListener(new java.awt.event.MouseAdapter() {
+        lbl_KhachHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/khachhang1.png"))); // NOI18N
+        lbl_KhachHang.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jlbKhachHangMouseClicked(evt);
+                lbl_KhachHangMouseClicked(evt);
             }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jlbKhachHangMouseEntered(evt);
+                lbl_KhachHangMouseEntered(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                jlbKhachHangMouseExited(evt);
+                lbl_KhachHangMouseExited(evt);
             }
             public void mousePressed(java.awt.event.MouseEvent evt) {
-                jlbKhachHangMousePressed(evt);
+                lbl_KhachHangMousePressed(evt);
             }
             public void mouseReleased(java.awt.event.MouseEvent evt) {
-                jlbKhachHangMouseReleased(evt);
+                lbl_KhachHangMouseReleased(evt);
             }
         });
-        pScrollPane.add(jlbKhachHang);
-        jlbKhachHang.setBounds(0, 210, 200, 70);
+        pn_Menu.add(lbl_KhachHang);
+        lbl_KhachHang.setBounds(0, 210, 200, 70);
 
         jlbMon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/mon1.png"))); // NOI18N
         jlbMon.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -220,7 +220,7 @@ public class FrameDemo extends javax.swing.JFrame {
                 jlbMonMouseReleased(evt);
             }
         });
-        pScrollPane.add(jlbMon);
+        pn_Menu.add(jlbMon);
         jlbMon.setBounds(0, 280, 200, 70);
 
         jlbLuong.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/luong1.png"))); // NOI18N
@@ -241,7 +241,7 @@ public class FrameDemo extends javax.swing.JFrame {
                 jlbLuongMouseReleased(evt);
             }
         });
-        pScrollPane.add(jlbLuong);
+        pn_Menu.add(jlbLuong);
         jlbLuong.setBounds(0, 350, 200, 70);
 
         jlbNhaCungCap.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhacungcap1.png"))); // NOI18N
@@ -263,7 +263,7 @@ public class FrameDemo extends javax.swing.JFrame {
                 jlbNhaCungCapMouseReleased(evt);
             }
         });
-        pScrollPane.add(jlbNhaCungCap);
+        pn_Menu.add(jlbNhaCungCap);
         jlbNhaCungCap.setBounds(0, 420, 200, 70);
 
         jlbKhuyenMai.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/khuyenmai1.png"))); // NOI18N
@@ -284,7 +284,7 @@ public class FrameDemo extends javax.swing.JFrame {
                 jlbKhuyenMaiMouseReleased(evt);
             }
         });
-        pScrollPane.add(jlbKhuyenMai);
+        pn_Menu.add(jlbKhuyenMai);
         jlbKhuyenMai.setBounds(0, 490, 200, 70);
 
         jlbUuDai.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/uudai1.png"))); // NOI18N
@@ -305,7 +305,7 @@ public class FrameDemo extends javax.swing.JFrame {
                 jlbUuDaiMouseReleased(evt);
             }
         });
-        pScrollPane.add(jlbUuDai);
+        pn_Menu.add(jlbUuDai);
         jlbUuDai.setBounds(0, 560, 200, 70);
 
         jlbChucVu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/chucvu1.png"))); // NOI18N
@@ -326,7 +326,7 @@ public class FrameDemo extends javax.swing.JFrame {
                 jlbChucVuMouseReleased(evt);
             }
         });
-        pScrollPane.add(jlbChucVu);
+        pn_Menu.add(jlbChucVu);
         jlbChucVu.setBounds(0, 630, 200, 70);
 
         jlbTaiKhoan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/taikhoan1.png"))); // NOI18N
@@ -347,7 +347,7 @@ public class FrameDemo extends javax.swing.JFrame {
                 jlbTaiKhoanMouseReleased(evt);
             }
         });
-        pScrollPane.add(jlbTaiKhoan);
+        pn_Menu.add(jlbTaiKhoan);
         jlbTaiKhoan.setBounds(0, 700, 200, 70);
 
         jlbQuanLyApp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/quanlyapp1.png"))); // NOI18N
@@ -368,7 +368,7 @@ public class FrameDemo extends javax.swing.JFrame {
                 jlbQuanLyAppMouseReleased(evt);
             }
         });
-        pScrollPane.add(jlbQuanLyApp);
+        pn_Menu.add(jlbQuanLyApp);
         jlbQuanLyApp.setBounds(0, 770, 200, 70);
 
         jlbTinhThue.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/tinhthue1.png"))); // NOI18N
@@ -389,7 +389,7 @@ public class FrameDemo extends javax.swing.JFrame {
                 jlbTinhThueMouseReleased(evt);
             }
         });
-        pScrollPane.add(jlbTinhThue);
+        pn_Menu.add(jlbTinhThue);
         jlbTinhThue.setBounds(0, 840, 200, 70);
 
         jlbTKBanHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/TKBanhang1.png"))); // NOI18N
@@ -410,7 +410,7 @@ public class FrameDemo extends javax.swing.JFrame {
                 jlbTKBanHangMouseReleased(evt);
             }
         });
-        pScrollPane.add(jlbTKBanHang);
+        pn_Menu.add(jlbTKBanHang);
         jlbTKBanHang.setBounds(0, 910, 200, 70);
 
         jlbTKChiTra.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/TKChitra1.png"))); // NOI18N
@@ -431,7 +431,7 @@ public class FrameDemo extends javax.swing.JFrame {
                 jlbTKChiTraMouseReleased(evt);
             }
         });
-        pScrollPane.add(jlbTKChiTra);
+        pn_Menu.add(jlbTKChiTra);
         jlbTKChiTra.setBounds(0, 980, 200, 70);
 
         jlbTKDoanhThu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/TKDoanhthu1.png"))); // NOI18N
@@ -452,158 +452,158 @@ public class FrameDemo extends javax.swing.JFrame {
                 jlbTKDoanhThuMouseReleased(evt);
             }
         });
-        pScrollPane.add(jlbTKDoanhThu);
+        pn_Menu.add(jlbTKDoanhThu);
         jlbTKDoanhThu.setBounds(0, 1050, 200, 70);
 
-        jScrollPane1.setViewportView(pScrollPane);
+        sp_Menu.setViewportView(pn_Menu);
 
-        pFrame.add(jScrollPane1);
-        jScrollPane1.setBounds(0, 50, 220, 1000);
+        pn_Frame.add(sp_Menu);
+        sp_Menu.setBounds(0, 50, 220, 1000);
 
         jLabel2.setBackground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("jLabel2");
         jLabel2.setOpaque(true);
-        pFrame.add(jLabel2);
+        pn_Frame.add(jLabel2);
         jLabel2.setBounds(0, 0, 200, 1050);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(pFrame, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(pn_Frame, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(pFrame, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(pn_Frame, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
     //Set onclick cho jlbClose(Đóng ứng dụng)
-    private void jlbCloseMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbCloseMouseReleased
-        jlbClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/close2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbCloseMouseReleased
+    private void lbl_CloseMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_CloseMouseReleased
+        lbl_Close.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/close2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_CloseMouseReleased
 
-    private void jlbCloseMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbCloseMousePressed
-        jlbClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/close2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbCloseMousePressed
+    private void lbl_CloseMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_CloseMousePressed
+        lbl_Close.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/close2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_CloseMousePressed
 
-    private void jlbCloseMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbCloseMouseEntered
-        jlbClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/close2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbCloseMouseEntered
+    private void lbl_CloseMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_CloseMouseEntered
+        lbl_Close.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/close2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_CloseMouseEntered
 
-    private void jlbCloseMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbCloseMouseExited
-        jlbClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/close1.png"))); // NOI18N
-    }//GEN-LAST:event_jlbCloseMouseExited
+    private void lbl_CloseMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_CloseMouseExited
+        lbl_Close.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/close1.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_CloseMouseExited
 
-    private void jlbCloseMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbCloseMouseClicked
+    private void lbl_CloseMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_CloseMouseClicked
         System.exit(0);
-    }//GEN-LAST:event_jlbCloseMouseClicked
+    }//GEN-LAST:event_lbl_CloseMouseClicked
     
     //Set onclick cho jlbHiden(Ẩn xuống thanh tabkbar)
-    private void jlbHidenMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbHidenMouseReleased
-        jlbHiden.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/an2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbHidenMouseReleased
+    private void lbl_HidenMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_HidenMouseReleased
+        lbl_Hiden.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/an2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_HidenMouseReleased
 
-    private void jlbHidenMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbHidenMousePressed
-        jlbHiden.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/an2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbHidenMousePressed
+    private void lbl_HidenMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_HidenMousePressed
+        lbl_Hiden.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/an2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_HidenMousePressed
 
-    private void jlbHidenMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbHidenMouseEntered
-        jlbHiden.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/an2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbHidenMouseEntered
+    private void lbl_HidenMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_HidenMouseEntered
+        lbl_Hiden.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/an2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_HidenMouseEntered
 
-    private void jlbHidenMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbHidenMouseExited
-        jlbHiden.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/an1.png"))); // NOI18N
-    }//GEN-LAST:event_jlbHidenMouseExited
+    private void lbl_HidenMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_HidenMouseExited
+        lbl_Hiden.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/an1.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_HidenMouseExited
 
-    private void jlbHidenMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbHidenMouseClicked
+    private void lbl_HidenMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_HidenMouseClicked
         setState(Frame.ICONIFIED);
-    }//GEN-LAST:event_jlbHidenMouseClicked
+    }//GEN-LAST:event_lbl_HidenMouseClicked
 
     //Set onclick cho jlbMenuBanHang
-    private void jlbMenuBanHangMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbMenuBanHangMouseReleased
-        jlbMenuBanHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/menubanhang2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbMenuBanHangMouseReleased
+    private void lbl_MenuBanHangMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_MenuBanHangMouseReleased
+        lbl_MenuBanHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/menubanhang2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_MenuBanHangMouseReleased
 
-    private void jlbMenuBanHangMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbMenuBanHangMousePressed
-        jlbMenuBanHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/menubanhang2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbMenuBanHangMousePressed
+    private void lbl_MenuBanHangMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_MenuBanHangMousePressed
+        lbl_MenuBanHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/menubanhang2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_MenuBanHangMousePressed
 
-    private void jlbMenuBanHangMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbMenuBanHangMouseExited
-        jlbMenuBanHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/menubanhang1.png"))); // NOI18N
-    }//GEN-LAST:event_jlbMenuBanHangMouseExited
+    private void lbl_MenuBanHangMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_MenuBanHangMouseExited
+        lbl_MenuBanHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/menubanhang1.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_MenuBanHangMouseExited
 
-    private void jlbMenuBanHangMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbMenuBanHangMouseEntered
-        jlbMenuBanHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/menubanhang2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbMenuBanHangMouseEntered
+    private void lbl_MenuBanHangMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_MenuBanHangMouseEntered
+        lbl_MenuBanHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/menubanhang2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_MenuBanHangMouseEntered
 
-    private void jlbMenuBanHangMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbMenuBanHangMouseClicked
+    private void lbl_MenuBanHangMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_MenuBanHangMouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jlbMenuBanHangMouseClicked
+    }//GEN-LAST:event_lbl_MenuBanHangMouseClicked
     
     //Set onclick cho jlbBanHang
-    private void jlbNhapHangMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbNhapHangMouseClicked
+    private void lbl_NhapHangMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_NhapHangMouseClicked
         
-    }//GEN-LAST:event_jlbNhapHangMouseClicked
+    }//GEN-LAST:event_lbl_NhapHangMouseClicked
 
-    private void jlbNhapHangMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbNhapHangMouseEntered
-       jlbNhapHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhaphang2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbNhapHangMouseEntered
+    private void lbl_NhapHangMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_NhapHangMouseEntered
+       lbl_NhapHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhaphang2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_NhapHangMouseEntered
 
-    private void jlbNhapHangMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbNhapHangMouseExited
-        jlbNhapHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhaphang1.png"))); // NOI18N
-    }//GEN-LAST:event_jlbNhapHangMouseExited
+    private void lbl_NhapHangMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_NhapHangMouseExited
+        lbl_NhapHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhaphang1.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_NhapHangMouseExited
 
-    private void jlbNhapHangMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbNhapHangMousePressed
-        jlbNhapHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhaphang2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbNhapHangMousePressed
+    private void lbl_NhapHangMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_NhapHangMousePressed
+        lbl_NhapHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhaphang2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_NhapHangMousePressed
 
-    private void jlbNhapHangMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbNhapHangMouseReleased
-        jlbNhapHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhaphang2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbNhapHangMouseReleased
+    private void lbl_NhapHangMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_NhapHangMouseReleased
+        lbl_NhapHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhaphang2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_NhapHangMouseReleased
     
     //Set onclick cho jlbNhanVien
-    private void jlbNhanVienMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbNhanVienMouseReleased
-        jlbNhanVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhanvien2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbNhanVienMouseReleased
+    private void lbl_NhanVienMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_NhanVienMouseReleased
+        lbl_NhanVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhanvien2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_NhanVienMouseReleased
 
-    private void jlbNhanVienMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbNhanVienMousePressed
-        jlbNhanVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhanvien2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbNhanVienMousePressed
+    private void lbl_NhanVienMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_NhanVienMousePressed
+        lbl_NhanVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhanvien2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_NhanVienMousePressed
 
-    private void jlbNhanVienMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbNhanVienMouseEntered
-        jlbNhanVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhanvien2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbNhanVienMouseEntered
+    private void lbl_NhanVienMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_NhanVienMouseEntered
+        lbl_NhanVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhanvien2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_NhanVienMouseEntered
 
-    private void jlbNhanVienMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbNhanVienMouseExited
-        jlbNhanVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhanvien1.png"))); // NOI18N
-    }//GEN-LAST:event_jlbNhanVienMouseExited
+    private void lbl_NhanVienMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_NhanVienMouseExited
+        lbl_NhanVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/nhanvien1.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_NhanVienMouseExited
     
-    private void jlbNhanVienMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbNhanVienMouseClicked
+    private void lbl_NhanVienMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_NhanVienMouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jlbNhanVienMouseClicked
+    }//GEN-LAST:event_lbl_NhanVienMouseClicked
     
     //Set onclick cho jlbKhachHang
-    private void jlbKhachHangMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbKhachHangMouseReleased
-        jlbKhachHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/khachhang2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbKhachHangMouseReleased
+    private void lbl_KhachHangMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_KhachHangMouseReleased
+        lbl_KhachHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/khachhang2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_KhachHangMouseReleased
 
-    private void jlbKhachHangMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbKhachHangMousePressed
-        jlbKhachHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/khachhang2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbKhachHangMousePressed
+    private void lbl_KhachHangMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_KhachHangMousePressed
+        lbl_KhachHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/khachhang2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_KhachHangMousePressed
 
-    private void jlbKhachHangMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbKhachHangMouseEntered
-        jlbKhachHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/khachhang2.png"))); // NOI18N
-    }//GEN-LAST:event_jlbKhachHangMouseEntered
+    private void lbl_KhachHangMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_KhachHangMouseEntered
+        lbl_KhachHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/khachhang2.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_KhachHangMouseEntered
 
-    private void jlbKhachHangMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbKhachHangMouseExited
-        jlbKhachHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/khachhang1.png"))); // NOI18N
-    }//GEN-LAST:event_jlbKhachHangMouseExited
+    private void lbl_KhachHangMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_KhachHangMouseExited
+        lbl_KhachHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/frame/khachhang1.png"))); // NOI18N
+    }//GEN-LAST:event_lbl_KhachHangMouseExited
 
-    private void jlbKhachHangMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbKhachHangMouseClicked
+    private void lbl_KhachHangMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_KhachHangMouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jlbKhachHangMouseClicked
+    }//GEN-LAST:event_lbl_KhachHangMouseClicked
     
     //Set onclick cho jlbMon
     private void jlbMonMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlbMonMouseReleased
@@ -897,19 +897,11 @@ public class FrameDemo extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JLabel jblHeader;
     private javax.swing.JLabel jlbChucVu;
-    private javax.swing.JLabel jlbClose;
-    private javax.swing.JLabel jlbHiden;
-    private javax.swing.JLabel jlbKhachHang;
     private javax.swing.JLabel jlbKhuyenMai;
     private javax.swing.JLabel jlbLuong;
-    private javax.swing.JLabel jlbMenuBanHang;
     private javax.swing.JLabel jlbMon;
     private javax.swing.JLabel jlbNhaCungCap;
-    private javax.swing.JLabel jlbNhanVien;
-    private javax.swing.JLabel jlbNhapHang;
     private javax.swing.JLabel jlbQuanLyApp;
     private javax.swing.JLabel jlbTKBanHang;
     private javax.swing.JLabel jlbTKChiTra;
@@ -917,7 +909,15 @@ public class FrameDemo extends javax.swing.JFrame {
     private javax.swing.JLabel jlbTaiKhoan;
     private javax.swing.JLabel jlbTinhThue;
     private javax.swing.JLabel jlbUuDai;
-    private javax.swing.JPanel pFrame;
-    private javax.swing.JPanel pScrollPane;
+    private javax.swing.JLabel lbl_Close;
+    private javax.swing.JLabel lbl_Header;
+    private javax.swing.JLabel lbl_Hiden;
+    private javax.swing.JLabel lbl_KhachHang;
+    private javax.swing.JLabel lbl_MenuBanHang;
+    private javax.swing.JLabel lbl_NhanVien;
+    private javax.swing.JLabel lbl_NhapHang;
+    private javax.swing.JPanel pn_Frame;
+    private javax.swing.JPanel pn_Menu;
+    private javax.swing.JScrollPane sp_Menu;
     // End of variables declaration//GEN-END:variables
 }
