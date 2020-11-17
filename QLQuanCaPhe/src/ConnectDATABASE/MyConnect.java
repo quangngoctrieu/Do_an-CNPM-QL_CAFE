@@ -5,17 +5,26 @@
  */
 package ConnectDATABASE;
 
-import ConnectDATABASE.MyConnectUnit;
-import java.sql.ResultSet;
+import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import javax.swing.JOptionPane;
 /**
  *
  * @author LAPTOPTOKYO
  */
 public class MyConnect {
-    public static MyConnectUnit getDAO() throws Exception{
-        return new MyConnectUnit("localhost","sa","sa","csdlcaphe");
+    public MyConnectUnit getDAO() throws Exception{
+        return new MyConnectUnit("localhost","sa","123456789","csdlcaphe");
+    }
+    
+    public Connection openConnection(){
+        Connection conn = null;
+        try {
+                conn = DriverManager.getConnection("jdbc:sqlserver://localhost;databaseName=csdlcaphe;user=sa;password=123456789");
+                System.out.println("connect successfully!");
+            } catch (SQLException ex) {
+                System.out.println("connect failure!");
+            }
+        return conn;
     }
 }
