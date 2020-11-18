@@ -13,18 +13,7 @@ import java.sql.SQLException;
  * @author LAPTOPTOKYO
  */
 public class MyConnect {
-    public MyConnectUnit getDAO() throws Exception{
+    public static MyConnectUnit getDAO() throws Exception{
         return new MyConnectUnit("localhost","sa","123456","csdlcaphe");
-    }
-    
-    public Connection openConnection(){
-        Connection conn = null;
-        try {
-                conn = DriverManager.getConnection("jdbc:sqlserver://localhost;databaseName=csdlcaphe;user=sa;password=123456");
-                System.out.println("connect successfully!");
-            } catch (SQLException ex) {
-                System.out.println("connect failure!");
-            }
-        return conn;
     }
 }
