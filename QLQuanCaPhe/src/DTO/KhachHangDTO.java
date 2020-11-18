@@ -17,6 +17,26 @@ public class KhachHangDTO {
     private String strCapTV;
     private String strEmail;
     private String strNgayCap;
+    private String strDiaChi;
+
+    public String getStrDiaChi() {
+        return strDiaChi;
+    }
+
+    public void setStrDiaChi(String strDiaChi) {
+        this.strDiaChi = strDiaChi;
+    }
+
+    public KhachHangDTO(String strMaKH, String strTenKH, String strSDT, String strGioiTinh, String strCapTV, String strEmail, String strNgayCap, String strDiaChi) {
+        this.strMaKH = strMaKH;
+        this.strTenKH = strTenKH;
+        this.strSDT = strSDT;
+        this.strGioiTinh = strGioiTinh;
+        this.strCapTV = strCapTV;
+        this.strEmail = strEmail;
+        this.strNgayCap = strNgayCap;
+        this.strDiaChi = strDiaChi;
+    }
 
     public KhachHangDTO(String strMaKH, String strTenKH, String strSDT, String strGioiTinh, String strCapTV, String strEmail, String strNgayCap) {
         this.strMaKH = strMaKH;
