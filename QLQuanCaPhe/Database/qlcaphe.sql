@@ -6,7 +6,8 @@ create table chucvu
 (
 	macv nvarchar(5) primary key not null,
 	chucvu nvarchar(20) not null,
-	luong int not null
+	luong int not null,
+	trangthai int not null
 )
 --2
 create table nhanvien
