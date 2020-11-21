@@ -64,6 +64,10 @@ public class KhachHangModel {
             pstmt.setInt(5, KH.getDiem());
             pstmt.setInt(6, KH.getMaKhachHang());
             return pstmt.executeUpdate()>0;
+            return:
+            reutnr:
+            werqwe:
+  
         }
     }
 }
