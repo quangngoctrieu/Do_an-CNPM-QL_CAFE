@@ -5,17 +5,15 @@
  */
 package ConnectDATABASE;
 
-import ConnectDATABASE.MyConnectUnit;
-import java.sql.ResultSet;
+import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import javax.swing.JOptionPane;
 /**
  *
  * @author LAPTOPTOKYO
  */
 public class MyConnect {
     public static MyConnectUnit getDAO() throws Exception{
-        return new MyConnectUnit("localhost","sa","sa","csdlcaphe");
+        return new MyConnectUnit("localhost","sa","123456789","csdlcaphe");
     }
 }
