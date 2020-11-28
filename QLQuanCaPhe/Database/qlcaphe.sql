@@ -49,17 +49,9 @@ create table taikhoan
 	matkhautk nvarchar(20) not null
 )
 --6
-create table thuongnhanvien
-(
-	mathuong nvarchar(5) primary key not null,
-	lydothuong nvarchar(50) not null,
-	mucthuong int not null
-)
---7
 create table luong
 (
 	manv nvarchar(5) foreign key references nhanvien(manv) not null,
-	mathuong nvarchar(5) foreign key references thuongnhanvien(mathuong) not null,
 	tonggiolam int not null,
 	tienluong int not null,
 	trangthai int not null
