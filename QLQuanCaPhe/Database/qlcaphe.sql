@@ -63,7 +63,8 @@ create table nhacungcap
 	tenncc nvarchar(30) not null,
 	diachi nvarchar(100) not null,
 	sodienthoai nvarchar(15) not null,
-	gmail nvarchar(50) not null
+	gmail nvarchar(50) not null,
+	trangthai int not null
 )
 --8
 create table phieunhap
