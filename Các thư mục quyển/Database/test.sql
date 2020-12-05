@@ -23,7 +23,7 @@ insert into calam(mac,tenc,thoigianbd,thoigiankt,gio) values (N'C1',N'Ca một',
 insert into calam(mac,tenc,thoigianbd,thoigiankt,gio) values (N'C2',N'Ca hai','12:00:00','17:00:00','5:00:00')
 insert into calam(mac,tenc,thoigianbd,thoigiankt,gio) values (N'C3',N'Ca ba','17:00:00','23:00:00','6:00:00')
 --Nhà cung cấp
-insert into nhacungcap(mancc,tenncc,diachi,sodienthoai,gmail) values (N'NCC1',N'Công ty Pepsi',N'123 Chương Dương',N'0367945523',N'pepsico@gmail.com')
+insert into nhacungcap(mancc,tenncc,diachi,sodienthoai,gmail,trangthai) values (N'NCC1',N'Công ty Pepsi',N'123 Chương Dương',N'0367945523',N'pepsico@gmail.com',1)
 --Loại món
 insert into loaimon(malm,tenlm) values (N'L1','Nước ngọt')
 insert into loaimon(malm,tenlm) values (N'L2','Nước ép')
